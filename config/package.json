@@ -1,0 +1,14 @@
+{
+  "name": "snappy_news",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duwaljyoti/snappy_news.git"
+  },
+  "private": true
+}

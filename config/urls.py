@@ -14,9 +14,15 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+# from ..snappy_app.news.views.test import student_show
+
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from snappy_app.news import views
+
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('api/', include('snappy_app.api.v1.urls', namespace='api')),
+    # path('news/', include('snappy_app.news.api.v1.urls', namespace='news')),
+    path('abc/', student_show, name = 'student_show')
 ]
